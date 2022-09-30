@@ -28,6 +28,7 @@ spec:
         path: /webapp2
         pathType: Prefix 
   - host: frontend.51.124.207.192.nip.io # change the IP address here
-  
+ 
+az aks update -n terraform-aks-cluster -g terraform1 --attach-acr Abimbolacontainer
 https://learn.microsoft.com/en-us/azure/container-registry/container-registry-auth-kubernetes
 https://learn.microsoft.com/en-us/azure/aks/cluster-container-registry-integration?tabs=azure-cli
